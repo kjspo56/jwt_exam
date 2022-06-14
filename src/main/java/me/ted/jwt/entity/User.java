@@ -7,7 +7,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity // db table과 1:1로 매핑되는 객체
-@Table(name = "users") // table명을 user로 지정
+@Table(name = "user") // table명을 user로 지정
 @Getter
 @Setter
 @Builder
